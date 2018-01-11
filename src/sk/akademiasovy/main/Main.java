@@ -2,6 +2,7 @@ package sk.akademiasovy.main;
 
 import sk.akademiasovy.geometry.Rectangle;
 import sk.akademiasovy.geometry.Square;
+import sk.akademiasovy.geometry.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +19,11 @@ public class Main {
         System.out.println("Area of rectangle1 is "+ rectangle1.getArea() );
         System.out.println("Perimeter of rectangle1 is "+ rectangle1.getPerimeter() );
         System.out.println("Diagonal's length of rectangle1 is "+ rectangle1.getDiagonal() );
+
+        Triangle triangle = new Triangle();
+
+        System.out.println("Area of triangle is "+ triangle.getArea() );
+        System.out.println("Perimeter of triangle is "+ triangle.getPerimeter() );
+
     }
 }
