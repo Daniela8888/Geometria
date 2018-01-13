@@ -6,13 +6,18 @@ public class Rectangle {
 
 
 
-    public Rectangle (double a,double b) {
-        this.a = a;
-        this.b = b;
+    public Rectangle (double value){
+        a=value;
+        b=value;
     }
 
     public Rectangle(){
         a=b=0;
+    }
+
+    public Rectangle (double value, double value1 ){
+        a=value;
+        b=value1;
     }
 
     public double getArea(){

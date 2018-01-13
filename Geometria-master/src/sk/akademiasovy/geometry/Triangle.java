@@ -60,6 +60,6 @@ public class Triangle {
      else
         (a==b==c)
         return false;
-        
+
     }
 

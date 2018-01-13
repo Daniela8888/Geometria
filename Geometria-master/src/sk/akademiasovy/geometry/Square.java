@@ -28,4 +28,5 @@ public class Square {
     public double getDiagonal(){
         return Math.sqrt(a*a+a*a);
     }
+
 }
